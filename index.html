@@ -285,11 +285,14 @@
               alt="ESP32 + OLED module 3D model"
               camera-controls
               auto-rotate
-              poster="hardware/esp32/images/Lolin_ESP32_OLED_wemos_1.jpg"
-              exposure="1"
-              shadow-intensity="0.8"
-              class="model-viewer"
-            ></model-viewer>
+              ar
+              shadow-intensity="1"
+              camera-orbit="45deg 55deg 2.5m"
+              field-of-view="30deg"
+              style="width: 100%; height: 480px; background-color: #0b101a; border-radius: 18px;"
+            >
+              <div slot="progress-bar" style="color: var(--neon);">Loading 3D Model...</div>
+            </model-viewer>
             <div class="stl-viewer hidden" data-stl-viewer>
               <canvas class="stl-canvas"></canvas>
               <div class="stl-caption">Fallback STL viewer (no textures in STL format).</div>
