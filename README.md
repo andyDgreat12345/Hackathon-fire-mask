@@ -1,70 +1,81 @@
-﻿# Firemask Refinement System (Fire Guardians)
+# Firemask Refinement System (Fire Guardians)
 
-Innovative technology, priceless lives saved. This hackathon project upgrades our rapid-deployment fire escape mask with smarter sensing, faster alerts, and connected rescue coordination.
+> **Innovative technology, priceless lives saved.**
 
-## Highlights
+This hackathon project upgrades our rapid-deployment fire escape mask with smarter sensing, faster alerts, and connected rescue coordination. Our system integrates AI flame recognition, IoT networking, and a 6-second donning workflow to maximize survival rates in residential fires.
 
-- Air-composition sensing for early warning
-- AI flame recognition for risk verification
-- IoT networked alarms and rescue coordination
-- Mobile app monitoring (MIT App Inventor)
-- 6-second donning workflow
+---
 
-## Demo Flow (Target Timeline)
+## 🚀 Project Highlights
 
-- 0s: Air analysis + AI camera detect risk, auto-alarm sync
-- 6s: Mask donned, breathing protection active
-- 10s: Escape route located + network comms established
-- 20s: Lighting + laser pathfinding activated
-- 27s: Safe exit reached
+- **Early Warning:** Air-composition sensing to detect fire probability before visible flames appear.
+- **AI Verification:** Real-time flame recognition for high-confidence risk validation.
+- **IoT Ecosystem:** Networked alarms synchronized across devices, mobile apps, and rescue centers.
+- **Rapid Response:** Optimized 6-second donning workflow for immediate protection.
+- **Smart Navigation:** Integrated lighting and laser pathfinding for safe evacuation.
 
-## What Is New In This Upgrade
+---
 
-- Air-sensitive detector to mark fire probability before flames appear
-- AI flame camera validation for higher confidence
-- Mind + v1 backend for synchronized device status and alerts
-- Community-ready monitoring and remote rescue visibility
+## ⏱️ Demo Flow (Target Timeline)
 
-## Repository Structure
+| Time | Milestone |
+| :--- | :--- |
+| **0s** | Air analysis + AI camera detect risk; auto-alarm sync triggered. |
+| **6s** | Mask donned; breathing protection active. |
+| **10s** | Escape route located; network communications established. |
+| **20s** | Lighting + laser pathfinding activated. |
+| **27s** | **Safe exit reached.** |
 
-- `index.html`, `style.css`, `script.js`: GitHub Pages site (root deploy)
-- `docs/roadshow/`: Pitch materials (PowerPoint, posters, PDFs)
-- `hardware/`: BOM, sensor details, wiring diagrams
-- `software/`: Firmware, backend, and app code
-- `data/`: Sample logs, demo JSON, test outputs
-- `models/mask/`: Mask CAD files (STEP, STL, GLB)
-- `models/esp32/`: ESP32 module assets (STL + images)
-- `media/ppt/`: Figures exported from the pitch deck
-- `media/app-ui/`: App UI screenshots (normal + danger state)
+---
 
-## Web Demo (GitHub Pages)
+## 📂 Repository Structure
 
-1. Push this repo to GitHub.
-2. In GitHub: Settings -> Pages -> Deploy from branch.
-3. Select `main` and `/root`.
-4. The site will publish at `https://<user>.github.io/<repo>/`.
+We follow a professional open-source structure to organize our hardware, software, and documentation:
 
-## 3D Models
+- **[`website/`](./website/)**: Source code for the [GitHub Pages](https://andyDgreat12345.github.io/Hackathon-fire-mask/) landing page.
+- **[`docs/`](./docs/)**: Project documentation, including:
+  - [`roadshow/`](./docs/roadshow/): Pitch deck (PPTX), posters, and PDFs.
+  - [`figures/`](./docs/figures/): High-resolution images and graphs exported from the pitch.
+- **[`hardware/`](./hardware/)**: Hardware design files, including:
+  - [`esp32/`](./hardware/esp32/): ESP32 module assets (STL, images, and licenses).
+  - [`sensors/`](./hardware/sensors/): Air and flame sensor specifications.
+  - [`bom/`](./hardware/bom/): Bill of Materials and cost analysis.
+  - [`schematics/`](./hardware/schematics/): Wiring diagrams and circuit designs.
+- **[`software/`](./software/)**: Source code and logic:
+  - [`esp32-firmware/`](./software/esp32-firmware/): C++/Arduino code for the mask terminal.
+  - [`backend-mind-v1/`](./software/backend-mind-v1/): IoT data exchange and monitoring logic.
+  - [`app-inventor/`](./software/app-inventor/): MIT App Inventor source for the mobile UI.
+- **[`models/`](./models/)**: 3D design files:
+  - [`mask/`](./models/mask/): Mask CAD files (STEP, STL).
+  - [`renders/`](./models/renders/): High-quality 3D renders of the final product.
+- **[`data/`](./data/)**: Sample sensor logs, demo datasets, and testing outputs.
+- **[`media/`](./media/)**: Marketing assets, photos, videos, and [App UI screenshots](./media/app-ui/).
 
-- Mask CAD (STEP): `models/mask/00-00-01_asm.stp`
-- ESP32 STL: `models/esp32/ESP32_WeMos.stl`
-- If you convert to GLB, save as `models/esp32/esp32.glb` for web preview
+---
 
-## App UI Screenshots
+## 🛠️ Getting Started
 
-The site expects these two files:
+### Web Preview
+The project landing page is hosted via GitHub Pages. To view it:
+1. Go to **Settings** > **Pages**.
+2. Set the source to **Deploy from a branch**.
+3. Select the `main` branch and the `/website` folder (or root if configured).
+4. Visit the generated URL.
 
-- `media/app-ui/app-normal.png`
-- `media/app-ui/app-alert.png`
+### 3D Models
+- **Mask CAD (STEP):** [`models/mask/00-00-01_asm.stp`](./models/mask/00-00-01_asm.stp)
+- **ESP32 STL:** [`hardware/esp32/ESP32_WeMos.stl`](./hardware/esp32/ESP32_WeMos.stl)
 
-Replace the placeholder images with your real screenshots and the App UI section updates automatically.
+---
 
-## Credits
+## 👥 Team Fire Guardians
 
-- ESP32 STL model: "ESP32 + OLED" by PreinfalkG (Thingiverse), CC BY-NC
+- **Tianxiao Cao** — CEO (Project Planning & Operations)
+- **Tianyi Sun** — CTO (Core R&D & Technical Validation)
+- **Chenming Zhou** — CFO (Cost Accounting & Profit Model)
 
-## Team
+---
 
-- Tianxiao Cao - CEO
-- Tianyi Sun - CTO
-- Chenming Zhou - CFO
+## 📜 Credits & License
+- ESP32 STL model: "ESP32 + OLED" by PreinfalkG (Thingiverse), licensed under **CC BY-NC**.
+- All other original content © 2026 Team Fire Guardians.
