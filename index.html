@@ -26,6 +26,7 @@
         <a href="#solution">Solution</a>
         <a href="#upgrade">Upgrade</a>
         <a href="#app">App UI</a>
+        <a href="#architecture">Architecture</a>
         <a href="#demo">Demo</a>
         <a href="#team">Team</a>
       </nav>
@@ -47,15 +48,15 @@
           </div>
           <div class="hero-stats">
             <div class="stat-card reveal" data-delay="0">
-              <div class="stat-value" data-count="6" data-suffix="S">0</div>
+              <div class="stat-value" data-count="6" data-suffix="S">6S</div>
               <div class="stat-label">Donning Time</div>
             </div>
             <div class="stat-card reveal" data-delay="0.05">
-              <div class="stat-value" data-count="0" data-suffix="s">0</div>
+              <div class="stat-value" data-count="0" data-suffix="s">0s</div>
               <div class="stat-label">Early Warning</div>
             </div>
             <div class="stat-card reveal" data-delay="0.1">
-              <div class="stat-value" data-count="27" data-suffix="s">0</div>
+              <div class="stat-value" data-count="27" data-suffix="s">27s</div>
               <div class="stat-label">Safe Exit Target</div>
             </div>
           </div>
@@ -194,11 +195,11 @@
           </div>
           <div class="card glass">
             <h3>AI Flame Camera</h3>
-            <p>Vision model recognizes flame patterns and verifies risk classification.</p>
+            <p>Vision model recognizes flame patterns using **HuskyLens (二哈2)**.</p>
           </div>
           <div class="card glass">
             <h3>Mind + v1 Backend</h3>
-            <p>Handles synchronized alarm, device status, and data exchange across the IoT network.</p>
+            <p>Handles synchronized alarm, device status, and data exchange via **SIoT**.</p>
           </div>
           <div class="card glass">
             <h3>MIT App Inventor App</h3>
@@ -229,6 +230,17 @@
             <img src="media/app-ui/app-alert.png" alt="App UI danger air composition state" loading="lazy" />
             <figcaption>Danger state — evacuation + filter mode.</figcaption>
           </figure>
+        </div>
+      </section>
+
+      <section class="section reveal" id="architecture">
+        <div class="section-title">
+          <h2>System Architecture (Hercules)</h2>
+          <p>The complete ecosystem connecting the mask, cloud, and emergency services.</p>
+        </div>
+        <div class="media-card" style="margin-top: 28px;">
+          <img src="docs/figures/system_architecture.jpg" alt="Hercules System Architecture" style="height: auto; width: 100%;" />
+          <figcaption>Hercules Ecosystem: IoT networking and AI verification workflow.</figcaption>
         </div>
       </section>
 
@@ -285,8 +297,8 @@
           </div>
           <div class="model-note">
             ESP32 STL model: <span class="mono">hardware/esp32/ESP32_WeMos.stl</span>.
-            If you convert it to GLB, save as <span class="mono">hardware/esp32/esp32.glb</span>.
-            Mask STEP CAD is at <span class="mono">models/mask/00-00-01_asm.stp</span> (convert later for web preview).
+            GLB Preview: <span class="mono">hardware/esp32/esp32.glb</span>.
+            Mask STEP CAD: <span class="mono">models/mask/00-00-01_asm.stp</span>.
           </div>
           <div class="model-credit">
             STL model: “ESP32 + OLED” by PreinfalkG (Thingiverse), licensed CC BY-NC.
@@ -301,11 +313,11 @@
         </div>
         <div class="grid-3">
           <div class="card">
-            <h3>Tianxiao Cao</h3>
+            <h3>Tianxiao Cao (David)</h3>
             <p>CEO — project planning, development, and operations.</p>
           </div>
           <div class="card">
-            <h3>Tianyi Sun</h3>
+            <h3>Tianyi Sun (Andy)</h3>
             <p>CTO — core R&amp;D, iteration, and technical validation.</p>
           </div>
           <div class="card">
@@ -328,7 +340,7 @@
 
     <footer class="site-footer">
       <div>Fire Guardians • Hackathon Build</div>
-      <div data-year></div>
+      <div data-year>2026</div>
     </footer>
 
     <script type="module" src="script.js"></script>
