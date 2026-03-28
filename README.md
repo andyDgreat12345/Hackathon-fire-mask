@@ -9,8 +9,8 @@ This hackathon project upgrades our rapid-deployment fire escape mask with smart
 ## 🚀 Project Highlights
 
 - **Early Warning:** Air-composition sensing to detect fire probability before visible flames appear.
-- **AI Verification:** Real-time flame recognition for high-confidence risk validation.
-- **IoT Ecosystem:** Networked alarms synchronized across devices, mobile apps, and rescue centers.
+- **AI Verification:** Real-time flame recognition using **HuskyLens (二哈2)** for high-confidence risk validation.
+- **IoT Ecosystem:** Networked alarms synchronized across devices, mobile apps, and rescue centers via **Mind+** and **SIoT**.
 - **Rapid Response:** Optimized 6-second donning workflow for immediate protection.
 - **Smart Navigation:** Integrated lighting and laser pathfinding for safe evacuation.
 
@@ -50,6 +50,7 @@ We follow a professional open-source structure to organize our hardware, softwar
   - [`renders/`](./models/renders/): High-quality 3D renders of the final product.
 - **[`data/`](./data/)**: Sample sensor logs, demo datasets, and testing outputs.
 - **[`media/`](./media/)**: Marketing assets, photos, videos, and [App UI screenshots](./media/app-ui/).
+- **[`docs/figures/system_architecture.jpg`](./docs/figures/system_architecture.jpg)**: The complete "Hercules" system architecture diagram.
 
 ---
 
@@ -70,8 +71,8 @@ The project landing page is hosted via GitHub Pages. To view it:
 
 ## 👥 Team Fire Guardians
 
-- **Tianxiao Cao** — CEO (Project Planning & Operations)
-- **Tianyi Sun** — CTO (Core R&D & Technical Validation)
+- **Tianxiao Cao (David Cao)** — CEO (Project Planning & Operations)
+- **Tianyi Sun (Andy Sun)** — CTO (Core R&D & Technical Validation)
 - **Chenming Zhou** — CFO (Cost Accounting & Profit Model)
 
 ---
