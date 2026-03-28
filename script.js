@@ -61,8 +61,8 @@ if (yearEl) {
 const modelViewer = document.querySelector('model-viewer');
 const stlWrap = document.querySelector('[data-stl-viewer]');
 const stlCanvas = stlWrap ? stlWrap.querySelector('canvas') : null;
-const glbUrl = 'assets/esp32/esp32.glb';
-const stlUrl = 'assets/esp32/files/ESP32_WeMos.stl';
+const glbUrl = 'models/esp32/esp32.glb';
+const stlUrl = 'models/esp32/ESP32_WeMos.stl';
 
 const hasGlb = async () => {
   try {
